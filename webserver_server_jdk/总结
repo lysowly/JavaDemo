@@ -1,0 +1,6 @@
+目标：通过JKD来发布webservice服务
+
+1、创建接口
+2、创建实现类+@WebService
+3、发布服务
+Endpoint.publish("http://localhost:8080/weatherService", 实现类的实例);

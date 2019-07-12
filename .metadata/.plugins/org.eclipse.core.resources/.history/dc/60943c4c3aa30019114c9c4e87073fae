@@ -1,0 +1,28 @@
+package cn.com.webxml.clent;
+
+import java.util.List;
+
+import cn.com.webxml.ArrayOfString;
+import cn.com.webxml.EnglishChinese;
+import cn.com.webxml.EnglishChineseSoap;
+import cn.com.webxml.TranslatorResponse.TranslatorResult;
+
+public interface Client {
+	public static void main(String[] args) {
+		//1.生成
+		// <wsdl:service name="EnglishChinese">
+		EnglishChinese service=new EnglishChinese();
+		//2.实例
+		//<wsdl:portType name="EnglishChineseSoap">
+		EnglishChineseSoap port=service.getPort(EnglishChineseSoap.class);
+		//3.调用
+		//<wsdl:operation name="TranslatorString">
+		ArrayOfString fyInfo=port.translatorReferString("中国");
+		List<String> list=fyInfo.getString();
+		for (Sting str:list) {
+		System.out.println(str);	
+		}
+		
+		
+	}
+}

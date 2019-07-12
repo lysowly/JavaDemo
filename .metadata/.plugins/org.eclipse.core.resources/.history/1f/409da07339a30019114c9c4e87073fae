@@ -1,0 +1,5 @@
+package cn.com.webxml.clent;
+
+public interface Client {
+
+}

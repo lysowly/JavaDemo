@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Service"/>
+<fullyQualifiedTypeName name="com.qf.webserver.WeatherServerImpl"/>
+<fullyQualifiedTypeName name="cn.com.webxml.MobileCodeWS"/>
+<fullyQualifiedTypeName name="cn.com.webxml.MobileCodeWSSoap"/>
+<fullyQualifiedTypeName name="cn.com.webxml.WeatherWS"/>
+<fullyQualifiedTypeName name="cn.com.webxml.WeatherWSSoap"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="cn.com.webxml.EnglishChinese"/>
+<fullyQualifiedTypeName name="cn.com.webxml.EnglishChineseSoap"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

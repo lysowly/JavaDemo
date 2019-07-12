@@ -1,0 +1,5 @@
+package com.qf.webserver;
+
+public interface IWeatherServer {
+
+}

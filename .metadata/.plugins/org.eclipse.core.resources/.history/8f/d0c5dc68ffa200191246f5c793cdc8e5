@@ -1,0 +1,15 @@
+package com.qf.webserver;
+
+import javax.jws.WebService;
+
+@WebService
+
+public class WeatherServerImpl implements IWeatherServer {
+
+	@Override
+	public String query(String cityName) {
+		System.out.println("²éÑ¯"+cityName);
+		return "ÇçÌì";
+	}
+
+}

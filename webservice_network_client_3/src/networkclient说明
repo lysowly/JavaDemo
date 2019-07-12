@@ -1,0 +1,4 @@
+目标：访问网络的webservice服务
+
+1、通过服务的访问地址，生成客户端程序
+wsimport -s . http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx?wsdl
