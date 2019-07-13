@@ -1,2 +1,0 @@
-1、生成客户端
-wsimport -s . http://localhost:8080/weatherService?wsdl

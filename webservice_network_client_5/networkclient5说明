@@ -5,3 +5,5 @@
 <s:element ref="s:schema" />其实就是说这里可以用s:schema规定的任意一种元素类型来替代，<s:any />正是起到了这个作用。
 <s:any minOccurs="2" maxOccurs="2"/>只不过是把两个<s:any />写成了一句罢了。
 wsimport -s . D:\eclipse-workspace\webservice_network_client_5\EngliahChinese.wsdl
+
+调用服务测试

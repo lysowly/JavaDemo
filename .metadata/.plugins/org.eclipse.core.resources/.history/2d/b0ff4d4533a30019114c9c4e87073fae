@@ -1,8 +1,0 @@
-目标：访问天气信息服务
-1.生成客户端程序报错处理
-服务保持 .net 开发
-应该是和JAXB不支持xml的ref有关。因为
-<s:any minOccurs="2" maxOccurs="2"/>和<s:element ref="s:schema" /><s:any />其实是等价的。
-<s:element ref="s:schema" />其实就是说这里可以用s:schema规定的任意一种元素类型来替代，<s:any />正是起到了这个作用。
-<s:any minOccurs="2" maxOccurs="2"/>只不过是把两个<s:any />写成了一句罢了。
-第一行不能是空行，必须为<?xml version="1.0" encoding="utf-8"?>
