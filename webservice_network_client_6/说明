@@ -96,6 +96,12 @@ $ git commit --amend      撤消操作
 git reset HEAD <file>... 来取消暂存取消暂存的文件
 git checkout -- <file>...撤消对文件的修改
 （五）远程仓库的使用
+（1）查看远程仓库
+git remote 查看远程仓库 
+git remote -v  会显示需要读写远程仓库使用的 Git 保存的简写与其对应的 URL。
+（2）添加远程仓库
+
+
 
 
 
